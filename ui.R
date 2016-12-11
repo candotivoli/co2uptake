@@ -15,7 +15,7 @@ shinyUI(fluidPage(
               CO2 concentration. Half the plants of each type were chilled overnight before the experiment was conducted."),
             p("This Shiny Application allows the user to view all the data or to filter both by Region and/or Treatment \
               (chilled or not chilled)."),
-            p("Simply use the checkbox to include or exclude the appropriate categories. For each combination a regression line is plotted."),
+            p("Simply use the checkboxes to include or exclude the appropriate categories. For each combination a regression line is plotted."),
             plotOutput("plot1")
         )
     )
